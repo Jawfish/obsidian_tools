@@ -1,3 +1,5 @@
+# Fixes WikiLinks that contain a forward slash
+# caused by the link conversion plugin in Obsidian
 import os
 import re
 

@@ -1,3 +1,5 @@
+# Remove non-existent links from markdown files,
+# replacing them with the link title
 import os
 import re
 from pathlib import Path
