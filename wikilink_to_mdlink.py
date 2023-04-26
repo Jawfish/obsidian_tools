@@ -1,5 +1,7 @@
 # turns WikiLinks into Markdown links
 # [[example link]] -> [example link](example%20link.md)
+# [[example link|Example Link]] -> [Example Link](example%20link.md)
+# [[example link]] in parent directory -> [example link](../example%20link.md)
 
 import os
 import re
